@@ -7,7 +7,7 @@ spec:
     - host: bgd.devnation
       http:
         paths:
-          - path: /
+          - path: /bgd
             pathType: Prefix
             backend:
               service:
